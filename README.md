@@ -1,25 +1,16 @@
-# 🚜 Bulldozer Price Prediction
+# Bulldozer Price Prediction 🚜
 
-An end-to-end Machine Learning project for predicting bulldozer sale prices using Scikit-Learn and Random Forest Regressor.
+This project is based on the Blue Book for Bulldozers dataset from Kaggle.  
+The goal of the project is to predict the selling price of bulldozers using machine learning techniques.
 
-This project includes:
-- Data preprocessing
+I worked on:
+- Data cleaning and preprocessing
+- Handling missing values
 - Feature engineering
-- Exploratory Data Analysis (EDA)
-- Model training and evaluation
-- Feature importance analysis
-- Streamlit web application for predictions
+- Model training using Random Forest Regressor
+- Model evaluation and prediction
 
----
-
-## 📌 Problem Statement
-
-The goal of this project is to predict the future sale price of bulldozers based on machine-related features and historical sales data.
-
----
-
-## 🛠 Technologies Used
-
+The project was built using:
 - Python
 - Pandas
 - NumPy
@@ -28,53 +19,30 @@ The goal of this project is to predict the future sale price of bulldozers based
 - Jupyter Notebook
 - Streamlit
 
----
+## 📂 Dataset
 
-## 📊 Machine Learning Workflow
+The dataset used in this project comes from the Kaggle Blue Book for Bulldozers competition.
 
-1. Data loading and preprocessing
-2. Handling missing values
-3. Converting categorical features
-4. Feature engineering
-5. Model training using RandomForestRegressor
-6. Model evaluation
-7. Prediction on test data
-8. Streamlit app deployment
+Dataset link:
+https://www.kaggle.com/competitions/bluebook-for-bulldozers/data
 
----
+The dataset files are not uploaded here because of their large size.
 
-## 🚀 Streamlit App
+## 🚀 Project Files
 
-The project also includes a Streamlit web application where users can input bulldozer details and get predicted prices instantly.
+- `end-to-end-bluebook-bulldozer-price-regression.ipynb` → Complete notebook
+- `app.py` → Streamlit web app
+- `environment.yml` → Project dependencies
 
----
+## 📸 App Preview
 
-## 📷 App UI
+Streamlit UI screenshot added in the repository.
 
-![App Screenshot](app-ui.png.png)
+## 🙌 Learning Outcome
 
----
-
-## 📁 Project Structure
-
-```bash
-bulldozer-price-prediction/
-│
-├── app.py
-├── environment.yml
-├── README.md
-├── end-to-end-bluebook-bulldozer-price-regression.ipynb
-└── app-ui.png.png
-```
-
----
-
-## 📈 Model Used
-
-- Random Forest Regressor
-
----
-
-## 🙌 Acknowledgements
-
-This project was built as part of my Machine Learning learning journey and practice on structured data projects.
+This project helped me understand:
+- End-to-end ML workflows
+- Real-world data preprocessing
+- Regression problems
+- Model evaluation
+- Building simple ML web apps using Streamlit
